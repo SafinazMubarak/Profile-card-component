@@ -1,0 +1,142 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.parent{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(24, 117, 117);
+    margin: 0px;
+    
+}
+
+.top{
+    width: 800px;
+    height: 600px;
+    position: relative;
+    bottom: 20%;
+    right: 10%;
+}
+
+.bottom{
+    width: 600px;
+    height: 500px;
+    position: relative;
+    left: 40%;
+    bottom: 60%;
+   
+}
+
+
+.box{
+
+position: relative;
+    width: 350px;
+    height: 420px;
+    background-color: white;
+
+left: 35%;
+   bottom: 160%;
+
+   border: 0rem;
+   border-radius: 10px;
+
+   display: flex;
+   flex-direction: column;
+}
+
+.midpic{
+    position: relative;
+    bottom: 25%;
+    left: 112%;
+
+    width: 100px;
+    border: .5rem solid white;
+    border-radius: 60px;
+}
+.upper{
+    width: 30%;
+   
+}
+.pic{
+    border-top: 0rem;
+ 
+    border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+
+.mid{
+    width: 250px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+margin-left: 40px;
+position: relative;
+bottom: 20%;
+}
+h3{
+    margin-left: 5px;
+    margin-top: 50px;
+    font-size: 20px;
+   
+    
+}
+.n1{
+    color: rgb(99, 98, 98);
+}
+
+.c1 {
+display: flex;
+flex-direction: row;
+column-gap: 8px;
+font-size: 20px;
+}
+p{
+    margin-left: 40px;
+    padding-bottom: 0px;
+    position: relative;
+    bottom: 20%;
+    color: rgb(80, 78, 78);
+}
+
+.down{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.num{
+    display: flex;
+    flex-direction: row;  
+    column-gap: 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.txtf{
+    display: flex;
+    flex-direction: row; 
+    column-gap: 30px;
+    margin-right: 10px;
+    position: relative;
+    bottom: 20%;
+    font-size: 12px;
+}
+
+.hrhr{
+    width: 348px;
+    position: relative;
+  bottom: 15px;
+ right: 16%;
+ border: .1rem solid rgb(191, 182, 182);
+   
+}
